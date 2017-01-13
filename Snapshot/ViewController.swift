@@ -64,23 +64,19 @@ class ViewController: UIViewController, UIViewControllerTransitioningDelegate {
     }
     
     func animationController(forPresented presented: UIViewController, presenting: UIViewController, source: UIViewController) -> UIViewControllerAnimatedTransitioning? {
-        
         transition.transitionMode = .present
         transition.startingPoint = accessToCameraButton.center
-        transition.circleColour = accessToCameraButton.backgroundColor!
+        transition.circleColor = accessToCameraButton.backgroundColor!
         
         return transition
-        
     }
     
     func animationController(forDismissed dismissed: UIViewController) -> UIViewControllerAnimatedTransitioning? {
-        
         transition.transitionMode = .dismiss
         transition.startingPoint = accessToCameraButton.center
-        transition.circleColour = accessToCameraButton.backgroundColor!
+        transition.circleColor = accessToCameraButton.backgroundColor!
         
         return transition
-        
     }
     
     
