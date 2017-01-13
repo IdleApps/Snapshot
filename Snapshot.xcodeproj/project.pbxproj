@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A35893DF1E28119300591621 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A35893DE1E28119300591621 /* AVFoundation.framework */; };
+		A3ADED041E282B0E00E538E0 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3ADED031E282B0E00E538E0 /* SecondViewController.swift */; };
+		A3ADED061E282E4B00E538E0 /* CircularTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3ADED051E282E4A00E538E0 /* CircularTransition.swift */; };
 		A3DB6D211E269E07003B23CC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3DB6D201E269E07003B23CC /* AppDelegate.swift */; };
 		A3DB6D231E269E07003B23CC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3DB6D221E269E07003B23CC /* ViewController.swift */; };
 		A3DB6D261E269E07003B23CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3DB6D241E269E07003B23CC /* Main.storyboard */; };
@@ -14,6 +17,20 @@
 		A3DB6D2B1E269E08003B23CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3DB6D291E269E08003B23CC /* LaunchScreen.storyboard */; };
 		A3DB6D361E269E08003B23CC /* SnapshotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3DB6D351E269E08003B23CC /* SnapshotTests.swift */; };
 		A3DB6D411E269E08003B23CC /* SnapshotUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3DB6D401E269E08003B23CC /* SnapshotUITests.swift */; };
+		A3DB6D741E26D86F003B23CC /* SF-UI-Text-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = A3DB6D581E26D6CD003B23CC /* SF-UI-Text-Bold.otf */; };
+		A3DB6D751E26D86F003B23CC /* SF-UI-Text-BoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = A3DB6D591E26D6CD003B23CC /* SF-UI-Text-BoldItalic.otf */; };
+		A3DB6D761E26D86F003B23CC /* SF-UI-Text-Heavy.otf in Resources */ = {isa = PBXBuildFile; fileRef = A3DB6D5A1E26D6CD003B23CC /* SF-UI-Text-Heavy.otf */; };
+		A3DB6D771E26D86F003B23CC /* SF-UI-Text-HeavyItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = A3DB6D5B1E26D6CD003B23CC /* SF-UI-Text-HeavyItalic.otf */; };
+		A3DB6D781E26D86F003B23CC /* SF-UI-Text-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = A3DB6D5C1E26D6CD003B23CC /* SF-UI-Text-Light.otf */; };
+		A3DB6D791E26D86F003B23CC /* SF-UI-Text-LightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = A3DB6D5D1E26D6CD003B23CC /* SF-UI-Text-LightItalic.otf */; };
+		A3DB6D7A1E26D86F003B23CC /* SF-UI-Text-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = A3DB6D5E1E26D6CD003B23CC /* SF-UI-Text-Medium.otf */; };
+		A3DB6D7B1E26D86F003B23CC /* SF-UI-Text-MediumItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = A3DB6D5F1E26D6CD003B23CC /* SF-UI-Text-MediumItalic.otf */; };
+		A3DB6D7C1E26D86F003B23CC /* SF-UI-Text-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = A3DB6D601E26D6CD003B23CC /* SF-UI-Text-Regular.otf */; };
+		A3DB6D7D1E26D86F003B23CC /* SF-UI-Text-RegularItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = A3DB6D611E26D6CD003B23CC /* SF-UI-Text-RegularItalic.otf */; };
+		A3DB6D7E1E26D86F003B23CC /* SF-UI-Text-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = A3DB6D621E26D6CD003B23CC /* SF-UI-Text-Semibold.otf */; };
+		A3DB6D7F1E26D86F003B23CC /* SF-UI-Text-SemiboldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = A3DB6D631E26D6CD003B23CC /* SF-UI-Text-SemiboldItalic.otf */; };
+		A3DB6D801E26D86F003B23CC /* SF-UI-Text-Ultrathin.otf in Resources */ = {isa = PBXBuildFile; fileRef = A3DB6D641E26D6CD003B23CC /* SF-UI-Text-Ultrathin.otf */; };
+		A3DB6D811E26D86F003B23CC /* SF-UI-Text-UltrathinItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = A3DB6D651E26D6CD003B23CC /* SF-UI-Text-UltrathinItalic.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +51,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A35893DE1E28119300591621 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		A3ADED031E282B0E00E538E0 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		A3ADED051E282E4A00E538E0 /* CircularTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircularTransition.swift; sourceTree = "<group>"; };
 		A3DB6D1D1E269E07003B23CC /* Snapshot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Snapshot.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3DB6D201E269E07003B23CC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A3DB6D221E269E07003B23CC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +67,20 @@
 		A3DB6D3C1E269E08003B23CC /* SnapshotUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SnapshotUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3DB6D401E269E08003B23CC /* SnapshotUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapshotUITests.swift; sourceTree = "<group>"; };
 		A3DB6D421E269E08003B23CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3DB6D581E26D6CD003B23CC /* SF-UI-Text-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-UI-Text-Bold.otf"; sourceTree = "<group>"; };
+		A3DB6D591E26D6CD003B23CC /* SF-UI-Text-BoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-UI-Text-BoldItalic.otf"; sourceTree = "<group>"; };
+		A3DB6D5A1E26D6CD003B23CC /* SF-UI-Text-Heavy.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-UI-Text-Heavy.otf"; sourceTree = "<group>"; };
+		A3DB6D5B1E26D6CD003B23CC /* SF-UI-Text-HeavyItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-UI-Text-HeavyItalic.otf"; sourceTree = "<group>"; };
+		A3DB6D5C1E26D6CD003B23CC /* SF-UI-Text-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-UI-Text-Light.otf"; sourceTree = "<group>"; };
+		A3DB6D5D1E26D6CD003B23CC /* SF-UI-Text-LightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-UI-Text-LightItalic.otf"; sourceTree = "<group>"; };
+		A3DB6D5E1E26D6CD003B23CC /* SF-UI-Text-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-UI-Text-Medium.otf"; sourceTree = "<group>"; };
+		A3DB6D5F1E26D6CD003B23CC /* SF-UI-Text-MediumItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-UI-Text-MediumItalic.otf"; sourceTree = "<group>"; };
+		A3DB6D601E26D6CD003B23CC /* SF-UI-Text-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-UI-Text-Regular.otf"; sourceTree = "<group>"; };
+		A3DB6D611E26D6CD003B23CC /* SF-UI-Text-RegularItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-UI-Text-RegularItalic.otf"; sourceTree = "<group>"; };
+		A3DB6D621E26D6CD003B23CC /* SF-UI-Text-Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-UI-Text-Semibold.otf"; sourceTree = "<group>"; };
+		A3DB6D631E26D6CD003B23CC /* SF-UI-Text-SemiboldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-UI-Text-SemiboldItalic.otf"; sourceTree = "<group>"; };
+		A3DB6D641E26D6CD003B23CC /* SF-UI-Text-Ultrathin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-UI-Text-Ultrathin.otf"; sourceTree = "<group>"; };
+		A3DB6D651E26D6CD003B23CC /* SF-UI-Text-UltrathinItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-UI-Text-UltrathinItalic.otf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A35893DF1E28119300591621 /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +109,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A35893DD1E28119300591621 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A35893DE1E28119300591621 /* AVFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		A3DB6D141E269E07003B23CC = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +124,7 @@
 				A3DB6D341E269E08003B23CC /* SnapshotTests */,
 				A3DB6D3F1E269E08003B23CC /* SnapshotUITests */,
 				A3DB6D1E1E269E07003B23CC /* Products */,
+				A35893DD1E28119300591621 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +141,15 @@
 		A3DB6D1F1E269E07003B23CC /* Snapshot */ = {
 			isa = PBXGroup;
 			children = (
+				A3DB6D4E1E26C772003B23CC /* Fonts */,
 				A3DB6D201E269E07003B23CC /* AppDelegate.swift */,
 				A3DB6D221E269E07003B23CC /* ViewController.swift */,
+				A3ADED031E282B0E00E538E0 /* SecondViewController.swift */,
 				A3DB6D241E269E07003B23CC /* Main.storyboard */,
 				A3DB6D271E269E08003B23CC /* Assets.xcassets */,
 				A3DB6D291E269E08003B23CC /* LaunchScreen.storyboard */,
 				A3DB6D2C1E269E08003B23CC /* Info.plist */,
+				A3ADED051E282E4A00E538E0 /* CircularTransition.swift */,
 			);
 			path = Snapshot;
 			sourceTree = "<group>";
@@ -123,6 +170,27 @@
 				A3DB6D421E269E08003B23CC /* Info.plist */,
 			);
 			path = SnapshotUITests;
+			sourceTree = "<group>";
+		};
+		A3DB6D4E1E26C772003B23CC /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				A3DB6D581E26D6CD003B23CC /* SF-UI-Text-Bold.otf */,
+				A3DB6D591E26D6CD003B23CC /* SF-UI-Text-BoldItalic.otf */,
+				A3DB6D5A1E26D6CD003B23CC /* SF-UI-Text-Heavy.otf */,
+				A3DB6D5B1E26D6CD003B23CC /* SF-UI-Text-HeavyItalic.otf */,
+				A3DB6D5C1E26D6CD003B23CC /* SF-UI-Text-Light.otf */,
+				A3DB6D5D1E26D6CD003B23CC /* SF-UI-Text-LightItalic.otf */,
+				A3DB6D5E1E26D6CD003B23CC /* SF-UI-Text-Medium.otf */,
+				A3DB6D5F1E26D6CD003B23CC /* SF-UI-Text-MediumItalic.otf */,
+				A3DB6D601E26D6CD003B23CC /* SF-UI-Text-Regular.otf */,
+				A3DB6D611E26D6CD003B23CC /* SF-UI-Text-RegularItalic.otf */,
+				A3DB6D621E26D6CD003B23CC /* SF-UI-Text-Semibold.otf */,
+				A3DB6D631E26D6CD003B23CC /* SF-UI-Text-SemiboldItalic.otf */,
+				A3DB6D641E26D6CD003B23CC /* SF-UI-Text-Ultrathin.otf */,
+				A3DB6D651E26D6CD003B23CC /* SF-UI-Text-UltrathinItalic.otf */,
+			);
+			name = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,6 +303,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3DB6D741E26D86F003B23CC /* SF-UI-Text-Bold.otf in Resources */,
+				A3DB6D751E26D86F003B23CC /* SF-UI-Text-BoldItalic.otf in Resources */,
+				A3DB6D761E26D86F003B23CC /* SF-UI-Text-Heavy.otf in Resources */,
+				A3DB6D771E26D86F003B23CC /* SF-UI-Text-HeavyItalic.otf in Resources */,
+				A3DB6D781E26D86F003B23CC /* SF-UI-Text-Light.otf in Resources */,
+				A3DB6D791E26D86F003B23CC /* SF-UI-Text-LightItalic.otf in Resources */,
+				A3DB6D7A1E26D86F003B23CC /* SF-UI-Text-Medium.otf in Resources */,
+				A3DB6D7B1E26D86F003B23CC /* SF-UI-Text-MediumItalic.otf in Resources */,
+				A3DB6D7C1E26D86F003B23CC /* SF-UI-Text-Regular.otf in Resources */,
+				A3DB6D7D1E26D86F003B23CC /* SF-UI-Text-RegularItalic.otf in Resources */,
+				A3DB6D7E1E26D86F003B23CC /* SF-UI-Text-Semibold.otf in Resources */,
+				A3DB6D7F1E26D86F003B23CC /* SF-UI-Text-SemiboldItalic.otf in Resources */,
+				A3DB6D801E26D86F003B23CC /* SF-UI-Text-Ultrathin.otf in Resources */,
+				A3DB6D811E26D86F003B23CC /* SF-UI-Text-UltrathinItalic.otf in Resources */,
 				A3DB6D2B1E269E08003B23CC /* LaunchScreen.storyboard in Resources */,
 				A3DB6D281E269E08003B23CC /* Assets.xcassets in Resources */,
 				A3DB6D261E269E07003B23CC /* Main.storyboard in Resources */,
@@ -262,8 +344,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3ADED041E282B0E00E538E0 /* SecondViewController.swift in Sources */,
 				A3DB6D231E269E07003B23CC /* ViewController.swift in Sources */,
 				A3DB6D211E269E07003B23CC /* AppDelegate.swift in Sources */,
+				A3ADED061E282E4B00E538E0 /* CircularTransition.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -421,6 +505,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.IdleApps.Snapshot;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -434,6 +519,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.IdleApps.Snapshot;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -514,6 +600,7 @@
 				A3DB6D471E269E08003B23CC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A3DB6D481E269E08003B23CC /* Build configuration list for PBXNativeTarget "SnapshotTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +609,7 @@
 				A3DB6D4A1E269E08003B23CC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A3DB6D4B1E269E08003B23CC /* Build configuration list for PBXNativeTarget "SnapshotUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +618,7 @@
 				A3DB6D4D1E269E08003B23CC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
